@@ -21,7 +21,7 @@ services:
 
   backend:
     build:
-      context: ../to-do-list-api
+      context: ../corelab-api-challenge
       dockerfile: Dockerfile
     ports:
       # Mapeia a porta 3001 da sua máquina para a porta 3001 do contêiner (porta do Nest)
